@@ -9,7 +9,7 @@
         <!--Create Order View Controller-->
         <scene sceneID="gH0-2J-SPQ">
             <objects>
-                <tableViewController id="c6C-bL-c2d" customClass="CreateOrderViewController" customModule="CleanSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="CreateOrderViewController" id="c6C-bL-c2d" customClass="CreateOrderViewController" customModule="CleanSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="q6G-bK-QJa">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

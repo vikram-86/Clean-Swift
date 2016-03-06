@@ -27,7 +27,7 @@ class CreateOrderInteractor: CreateOrderInteractorInput{
     var output: CreateOrderInteractorOutput!
     var worker: CreateOrderWorker!
     
-    var shippingMethods = ["Standard Shipping", "Two-day Shipping", "One-day Shipping"]
+    var shippingMethods = ["Standard Shipping", "Two-Day Shipping", "One-Day Shipping"]
     
     // MARK: Business logic
     
