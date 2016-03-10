@@ -15,12 +15,16 @@ protocol CreateOrderViewControllerInput{
     func displaySomething(viewModel: CreateOrderViewModel)
 }
 
+
+
 protocol CreateOrderViewControllerOutput{
     
     var shippingMethods : [String]{get}
     func formatExpirationDate(request: CreateOrder_FormatExpirationDate_Request)
     func doSomething(request: CreateOrderRequest)
 }
+
+
 
 class CreateOrderViewController: UITableViewController, CreateOrderViewControllerInput, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource{
     
@@ -111,7 +115,7 @@ class CreateOrderViewController: UITableViewController, CreateOrderViewControlle
         }
     }
     
-    
+
     
     // MARK: UIPickerView Delegates
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
